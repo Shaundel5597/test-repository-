@@ -6,8 +6,6 @@ let myVariableIsThisNumber = 55
 
 console.log(myVariableIsThisNumber)
 
-true
-
 console.log(true)
 
 let carName = "Volvo"
@@ -20,13 +18,9 @@ console.log(num)
 
 let num1 = 5
 
-console.log(num1)
-
  let num2 = 10 
 
- console.log(num2)
-
- let num3 = 15
+ let num3 = num1 + num2
 
  console.log(num3)
 
