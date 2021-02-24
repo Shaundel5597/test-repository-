@@ -51,3 +51,5 @@ console.log(animalWeight)
 let AnimalPattern = "striped"
 
 console.log(AnimalPattern)
+
+// 
