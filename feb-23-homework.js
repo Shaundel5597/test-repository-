@@ -28,7 +28,11 @@ console.log(template)
 
 let myVariable = "we are software engineers at nebula academy"
 
-console.log(myVariable.slice(7,15))
+// Log the index of  'software'
+
+console.log(myVariable.indexOf("software"))
+
+console.log(myVariable.length)
 
 // Log the index of 's'
 
@@ -60,9 +64,9 @@ console.log(myNewVariable[myNewVariable.length-1])
 
 // Log the character at index 5
 
-console.log(myNewVariable.indexOf("e"))
+console.log()
 
-//Uppercase everythign in the string
+//Uppercase everything in the string
 
 console.log(myNewVariable.toUpperCase(0,34))
 
