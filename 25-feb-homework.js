@@ -5,6 +5,9 @@ console.log(myNum)
 
 console.log("the remainder of 15/2 is" + " " + "1")
 
+           //OR
+
+console.log("the remainder of 15/2 is " + myNum)
 // Calculate the remainder of 30/2, log the string: 'the remainder of 30/2 is (remainder)'
 let newNum = 30 % 2
 
@@ -78,7 +81,7 @@ let variableOne = "we are software engineers at nebula academy";
 
 let imGonnaTry = variableOne.split(' ')
 
-let var3 = imGonnaTry.slice(7,15)
+let var3 = imGonnaTry[imGonnaTry.slice(7, 15)]
 
 console.log(var3)
 
