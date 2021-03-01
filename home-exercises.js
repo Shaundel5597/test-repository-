@@ -44,6 +44,7 @@ const animalPlanet = "Elephant Rock";
 
 console.log(animalPlanet.indexOf("p"))
 
+console.log(animalPlanet[3])
 // 5. Use a string method to save the substring "Rock" into a new variable, from the animalPlanet variable.
 //    Log the new variable. 
 
@@ -54,11 +55,16 @@ console.log(animalPlanet.indexOf("p"))
 
 console.log(animalPlanet2.slice(9, 14))
 
+// const dynaLog = console.log(animalPlanet2.slice(animalPlanet2.indexOf("Rock"), animalPlanet2.indexOf(animalPlanet2.indexOf("k"), animalPlanet2("Rock") +1 )
+
 
 // 6. Using ONLY the shouldBeHello variable below, initialize the hello variable with the string "hello" using bracket
 //    notation (indexing) and the slice method. Log the variable hello to the console -> it should log "hello".
+
 const shouldBeHello = "jello";
-let hello =
+let hello = ("h" + shouldBeHello.slice(1, 5)) 
+
+console.log(hello)
 
 // Answer
 // console.log(hello);
@@ -66,16 +72,20 @@ let hello =
 
 // 7. Using ONLY the aName variable, re-assign aName (on the next line) to be the same string except with the first letter capitalized.
 //    When you log the variable, the terminal should display "John".
- aName = "john";
+
+ let aName = "john";
 
 aName = "John"
 
+console.log(aName[0].toLocaleUpperCase() + aName.slice(1))
+
 console.log(aName)
+
 // Answer
 // console.log(aName);
 
 
-// 8. Put the below variable into the appropriate method to remove the decimals values when logging it to the console.
+// 8. Put the below variable into the appropriate method to remove the decimals values when logging it to the console. 
 const floatingPointNumber = 5.1234;
 
 // Answer
@@ -97,18 +107,23 @@ console.log(ourRemainder)
 //     our variables b & d, prepend / append the increment operator to variables a & c in the correct way to produce our desired output.
 
 let a = 4;
-let b = a;
+let b = ++a;
 let c = 5;
-let d = c;
+let d = c++;
 
 // Answer (our desired output): 5 5 6 5
-// console.log(a, b, c, d);
+console.log(a, b, c, d);
+
 
 
 // 11. If you uncomment the below code, why are we getting a Reference Error? How might we fix it?
 
- if(true){
-    let testing = "Log me";
- }
- console.log(testing);
-// you should set the variable first, then right out your boolean statement. Thats why it is giving undefined because you didnt define what is asking to be true or not.
+//if(true){
+//    let testing = "Log me";
+// }
+//console.log(testing);
+
+// Answer
+
+// scoping problem; everything has to be inside the {} to be able to console.log correctly
+
