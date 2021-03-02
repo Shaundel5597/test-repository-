@@ -1,6 +1,6 @@
 // using this array: let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
-let days = ['Sunday','Monday', 'Tuesday', 'Thursday', 'Friday', 'Saturday']
+let days = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 // log the length of the array
 
@@ -16,10 +16,7 @@ console.log(days.shift(), "<--- removing first element")
 
 console.log(days, "<--- New Array" )
 
-
-
 // Add 'Sunday' at the beginning of the array and log the new array
-
 
 console.log(days.unshift("Sunday"))
 
@@ -35,21 +32,22 @@ console.log(days[days.length-1], "<--- Readding")
 
 // replace 'Thursday' with 'Friday Junior'
 
-days.splice(3, 1, "Friday Junior" )
+days.splice(4, 1, "Friday Junior" )
 
 console.log(days)
 
 // extract your favorite day from the array and log the string: 'My favorite day of the week is (day)'
+console.log(days.indexOf("Friday"))
 
 let myFavDay = "my favorite day of the week is"
 
-console.log(days.push(4, myFavDay.length-1), "<--- extract")
+let favDay = days[5]
 
+console.log(myFavDay,favDay, "<--- extract and merge")
 
 // combine these two arrays together
 
 let phone = ['iphone', 'android']
-
 
 let laptop = ['MacBook', 'HP', 'Dell']
 
@@ -74,10 +72,18 @@ const iDontKnow = myNewStr.join("-")
 
 console.log(iDontKnow, "<--- joining")
 
+myNewStr.shift()
+
+console.log(myNewStr)    
+
+console.log(myNewStr.reverse())
+
+
 /*Turn the saved variable from above back into an array and mutate it into:
 - ["It", "Is", "Time"]
 Use only array methods / a certain string method to do this.
 */
+
 
 
 // Read up till (not including) page 50 in Eloquent JavaScript
