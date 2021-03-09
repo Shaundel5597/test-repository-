@@ -8,11 +8,11 @@ console.log((days.length), "<--- Length" )
 
 // log the 4th element in the array 
 
-console.log(days[4], "<--- finding element")
+console.log(days[4], "<--- find element")
 
 // remove the first element in the array. Log the new array and the element removed from the array
 
-console.log(days.shift(), "<--- removing first element")
+console.log(days.shift(), "<--- remove first element")
 
 console.log(days, "<--- New Array" )
 
@@ -32,7 +32,7 @@ console.log(days[days.length-1], "<--- Readding")
 
 // replace 'Thursday' with 'Friday Junior'
 
-days.splice(4, 1, "Friday Junior" )
+days.splice(5, 1, "Friday Junior" )
 
 console.log(days)
 

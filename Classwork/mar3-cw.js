@@ -33,29 +33,26 @@ console.log(myUpperCase, "<--- Line 8")
 */ 
 let randomNumber = Math.floor(Math.random()*3 )
 
-
-
-
 function getUserChoice(randomNumber){
     if(randomNumber === 1 ){
-        return "Paper covers rock"
+        return "Paper"
     }else if(randomNumber === 2){
-            return "Rock smashes Scissors"
+            return "Rock"
                 }else if (randomNumber === 3){
-                    return "Scissors cuts paper"
+                    return "Scissors"
     }
     }
 
     function getComputerChoice(randomNumber){
         if(randomNumber === 1){
-            console.log("Rock smashes Scissors")
+            return("Rock")
          }else if(randomNumber === 2){
-                console.log("Paper covers Rock")
+                return("Paper")
              }else if(randomNumber === 3){
-                    console.log("Scissors cuts Paper")
+                   return("Scissors")
     }
 }
-
-function whosWinner(){
+// This 
+function whosWinner(getComputerChoice, getUserChoice){
     
 }
