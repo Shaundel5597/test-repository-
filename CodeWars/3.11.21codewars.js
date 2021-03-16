@@ -31,7 +31,4 @@ for (let i = 0; i <= size; i++){
   return noClue
 }
 
-
-
-
 // Responsible Drinking
