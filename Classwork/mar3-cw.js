@@ -53,6 +53,11 @@ function getUserChoice(randomNumber){
     }
 }
 // This 
-function whosWinner(getComputerChoice, getUserChoice){
-    
+function whosWinner(winner){
+    if (getUserChoice() === getComputerChoice){
+     return winner = "Its a Tie..." 
+    }else if (getComputerChoice === getUserChoice){
+     return winner = "Its a Tie..."
+    }else if (getUserChoice === 1 && getComputerChoice === 1 )
+}
 }
