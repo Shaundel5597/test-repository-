@@ -1,0 +1,59 @@
+h1 {
+    color: papayawhip;
+    background-image: linear-gradient(blue, orange);
+    text-align: center;
+    opacity: 75%;
+    }
+
+h2 {
+    font-size: large;
+    margin-left: 50px;
+}
+
+h3{
+    margin-left: 70px;
+}
+
+h4 {
+    font-size: large;
+    margin-left: 70px;
+}
+    
+ #body-container {
+    margin: 0 auto;
+    width: 850px;
+    color: white;
+    /* margin-left: 25px;
+    margin-right: 25px; */
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(blue, orange);
+}
+
+p {
+    border: 5px solid rgba(137, 43, 226, 0.548);
+    padding: 10px;
+}
+
+ul li{
+    background-color: rgba(255, 68, 0, 0.445);
+    padding: 5px;
+    position: relative;
+    width: 200px;
+
+}
+
+
+
+
+h5 {
+    text-align: center;
+    font-size: x-large;
+    color: purple;
+}
+
+h6{
+    font-size: larger;
+}

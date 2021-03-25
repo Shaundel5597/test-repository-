@@ -1,0 +1,65 @@
+<html>
+    <head> 
+        
+        <title> List </title>
+        <style>
+            ul li {
+                list-style-type: circle;
+            }
+            .Mammals{
+                background-color:lavenderblush;
+            }
+            .Birds{
+                background-color: lightgray;
+            }
+            .Fish{
+                background-color: lightyellow;
+            }
+            #Mouse{
+                color: gray;
+            }
+            #Canary{
+                color: orangered;
+            }
+            #Penguin{
+                color: black;
+            }
+            #Salmon{
+                color: salmon
+            }
+            #Cat{
+                color: sienna;
+            }
+            #Goldfish{
+                color: gold;
+            }
+            #Dog{
+                color: tan;
+            }
+            #Sheep{
+                color:steelblue;
+            }
+            #Parakeet{
+                color: lime
+            }
+            #Tuna{
+                color: purple;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <ul>
+            <li id="mouse" class="Mammals"> Mouse </li>
+            <li id="canary" class= "Bird"> Canary </li>
+            <li id= "penguin" class="Bird"> Penguin </li>
+            <li id="Salmon" class="Fish"> Salmon </li>
+            <li id="Cat" class="Mammals"> Cat </li>
+            <li id="Goldfish" class="Fish"> Goldfish </li>
+            <li id="Dog" class="Mammals"> Dog </li> 
+            <li id="Sheep" class="Mammals"> Sheep </li>
+            <li id="Parakeet" class="Bird"> Parakeet </li>
+            <li id="Tuna" class="Fish"> Tuna </li>
+        </ul>
+  </body>   
+</html>
