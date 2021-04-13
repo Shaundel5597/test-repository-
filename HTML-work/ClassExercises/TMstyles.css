@@ -4,13 +4,14 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: teal;
 }
 
 #grid-container {
 display: grid;
-grid-template-columns: 100px 20px;
+grid-template-columns: 25% 25%;
 }
 
-#computer {
-    
+.computer {
+
 }

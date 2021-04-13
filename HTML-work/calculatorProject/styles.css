@@ -1,0 +1,101 @@
+body {
+    background-color:rgba(226, 223, 223, 0.712) ;
+}
+ body {
+    background-image:linear-gradient(grey, black);
+}
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ; 
+    justify-content: center;
+    background-color:white;
+    outline: none;
+    height: 400px;
+}
+
+
+
+#display-screen {
+height: 220px;
+width: 287px;
+color: skyblue;
+font-family: "digital-clock-font";
+background-color: white;
+}
+#display-box {
+text-align:right ;
+border: none;
+}
+
+#calculator-outline {
+height: 520px;
+width:320px ;
+margin: 0 auto;
+top: 20px;
+position: relative;
+}
+
+#zero {
+grid-column: span 2;
+grid-row: 5/ 6 ;
+margin: 10px;
+height: 30px;
+width: 120px;
+border: none;
+background-color:white;
+
+
+}
+
+#equal {
+grid-row: span 2;
+height: 110px;
+width: 45px;
+margin: 15px;
+border: none;
+font-size: larger;
+background-color: tomato;
+}
+
+.past-numbers {
+text-align: center;
+font-size: larger;
+}
+
+.current-numbers {
+text-align: center;
+font-size: x-large;
+}
+
+.number, .operator {
+height: 50px;
+width: 50px;
+margin: 10px;
+border: none;
+background-color: ;
+}
+
+.operator {
+font-size: larger;
+background-color: teal ;
+}
+
+.number { 
+ background-color: white;
+}
+
+.input-numbers{
+    text-align: right;
+    height: 15px;
+    margin:10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.output{
+    text-align: right;
+    margin: 20px;
+    font-size: 30px;
+}
