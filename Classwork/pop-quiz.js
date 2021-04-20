@@ -8,7 +8,9 @@
 //1.)There are 3 javascript keywords to initialize a variable. create A new variable below called value and set it to an empty string
 
 let value = ""
+
 const value = ""
+
 var value = ""
 
 //2.)JavaScript has many data types. String is an example of one. Name 2 more
@@ -29,8 +31,11 @@ Number
 let numbersInArr = [2, 12, 22, 32, 42, 52, 62];
 
 function failPopQuiz (arr){
+
  let logEachNum = []
+
   for (let i = 0; i < arr.length; i++){
+      
     console.log(arr[i])
   }
 }

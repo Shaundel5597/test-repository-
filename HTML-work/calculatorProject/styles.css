@@ -3,6 +3,7 @@ body {
 }
  body {
     background-image:linear-gradient(grey, black);
+    height:1000px;
 }
 #buttons {
     display: grid;
@@ -73,7 +74,7 @@ height: 50px;
 width: 50px;
 margin: 10px;
 border: none;
-background-color: ;
+
 }
 
 .operator {

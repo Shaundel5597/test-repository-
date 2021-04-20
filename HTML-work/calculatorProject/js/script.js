@@ -1,4 +1,4 @@
-console.log(45)
+
 // All my listed buttons
 let allClear = document.querySelector("#clear")
 
@@ -52,6 +52,7 @@ function clear() {
     leftNum = ""
     rightNum = ""
     currentCalculation = ""
+    allClear = ""
 }
 
 allClear.addEventListener("click", clear);
