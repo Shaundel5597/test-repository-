@@ -164,7 +164,7 @@ class Basketball {
     }
 }
 
-const basketball = new Basketball(30, 370, 25)
+let basketball = new Basketball(30, 370, 25)
 
 // class Scoreboard {
 //     constructor(x, y, width, height){
