@@ -6,7 +6,19 @@ const userList = document.body.querySelector("#user-list")
 
 
 class Employee {
-    constructor (name){
+    constructor (name, date){
         this.name = name 
+        this.date = date
     }    
+    showInSignInBox() {
+        return `<div class = 'row'> <p>${this.name}</p><p>${this.date.toString()} \n</p></div>`
+    }
 }
+
+function click() {
+    newWorker = new Worker(inputName.Value, new Date(date.now()))
+    workers [idNumber.value] = newWorker
+    inputName = ""
+    IDnumber = ""
+}
+

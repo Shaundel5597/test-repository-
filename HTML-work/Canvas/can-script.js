@@ -48,5 +48,23 @@ ctx.fillStyle = 'rgb(239, 181, 147';
 ctx.fillRect(175, 55, 100, 50);
 }
 drawPartIII()
+// trying something
+var lineCap = ['round', 'square'];
 
+ctx.strokeStyle = 'rgb(0, 0, 0)';
+  ctx.beginPath();
+  
+  
+  
+  
+  ctx.stroke();
 
+ctx.strokeStyle = 'black';
+  for (let i = 0; i < lineCap.length; i++) {
+    ctx.lineWidth = 15;
+    ctx.lineCap = lineCap[i];
+    ctx.beginPath();
+    ctx.moveTo(25 + i * 50, 10);
+    ctx.lineTo(25 + i * 50, 140);
+    ctx.stroke();
+  }

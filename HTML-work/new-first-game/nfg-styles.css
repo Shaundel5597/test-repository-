@@ -1,0 +1,23 @@
+canvas {
+display:flex;
+background-color: skyblue;
+border:2px solid black;
+justify-content: center;
+}
+
+img {
+    /* position: absolute;
+    height:278px;
+    width: 600px;
+    right: 580px;
+    bottom: 350px; */
+    
+}
+
+button {
+color: white;
+background-color: lime;
+border: green;
+width: 100px;
+height: 25px;
+}
